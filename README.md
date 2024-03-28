@@ -7,6 +7,13 @@ Video demo: https://youtu.be/pqtXNY4NdIg
 2. Navigate to the root of the folder you just downloaded. Its a folder called MailScheduler.
 3. Type ```npm init -y``` in the terminal and enter
 4. In the root folder, create a text file named .env file. Copy the contents below into the .env and fill in with your email info
+5. Install Typescript if you haven't installed it globally. 
+
+If you follow steps 1-4 then run the app and get this error: 'tsc is not recognized as an internal or external command', it means you do not have TypeScript globally downloaded, you will need to run the following command:
+```
+npm install typescript
+```
+need to do step 5.
 
 Notes: This program is only configured for gmail accounts. Also, if you have 2 factor authentication enabled on your email then you will have to set up a third party password due to security reasons. I will leave steps for that at the bottom of the README. 
 ```
