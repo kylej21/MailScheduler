@@ -1,0 +1,26 @@
+{
+  "name": "mailscheduler",
+  "version": "1.0.0",
+  "description": "This is a node.js application created for to email a specified user some content everyday at 10 AM using nodemailer.",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "lint": "eslint . --ext .ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.1",
+    "@typescript-eslint/eslint-plugin": "^7.4.0",
+    "@typescript-eslint/parser": "^7.4.0",
+    "eslint": "^8.57.0",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-cron": "^3.0.3",
+    "node-schedule": "^2.1.1"
+  }
+}
