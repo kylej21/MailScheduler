@@ -20,7 +20,7 @@ if (!isValid(targetEmail)) {
 }
 
 // asteriks * * * * * represent seconds, minutes, hours, ... etc. This schedule is at 10 am everyday. It calls sendMail function
-cron.schedule("* * * * *", sendMail, {
+cron.schedule("0 0 10 * * *", sendMail, {
   timezone: "America/New_York",
 });
 
