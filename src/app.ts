@@ -2,10 +2,11 @@
 require("dotenv").config();
 
 // importing required modules
-import * as validator from 'email-validator';
-import * as cron from 'node-cron';
+import * as validator from "email-validator";
+import * as cron from "node-cron";
 
-// nodemailer is a CommonJs Module so require instead of import is necessary when using TypeScript
+// nodemailer is a CommonJs Module so require instead of import is necessary when using TypeScript. Line below turns off ESLint alarm
+/* eslint @typescript-eslint/no-var-requires: "off" */
 const nodemailer = require("nodemailer");
 
 //abstracting the process.env from other developers to simplify code
