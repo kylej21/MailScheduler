@@ -14,19 +14,20 @@ npm init -y
 ```
 
 4. In the root folder, create a text file named ".env". Copy the contents below into the .env and fill in with your email info
+
 ```
 GMAIL_USER=''
 GMAIL_PASS=''
 GMAIL_TARGET=''
 ```
+
 5. Install Typescript if you haven't already installed it globally.
+
 ```
 npm install typescript
 ```
 
 Notes: This program is only configured for gmail accounts. Also, if you have 2 factor authentication enabled on your email then you will have to set up a third party password due to security reasons. I will leave steps for that at the bottom of the README.
-
-
 
 # Running the Application
 
