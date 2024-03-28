@@ -3,17 +3,17 @@ This is a node.js application which emails a specified user some content everyda
 Video demo: https://youtu.be/pqtXNY4NdIg
 
 # Setup
-1. Download the source code from this repository. If you don't already have it installed, install node.js.
+1. Download the source code from this repository. If you don't already have it installed, install node.js from online.
 2. Navigate to the root of the folder you just downloaded. Its a folder called MailScheduler.
-3. Type ```npm init -y``` in the terminal and enter
+3. Type this command  in the terminal and enter to create the node.js project
+```
+npm init -y
+```
 4. In the root folder, create a text file named .env file. Copy the contents below into the .env and fill in with your email info
-5. Install Typescript if you haven't installed it globally. 
-
-If you follow steps 1-4 then run the app and get this error: 'tsc is not recognized as an internal or external command', it means you do not have TypeScript globally downloaded, you will need to run the following command:
+5. Install Typescript if you haven't already installed it globally. 
 ```
 npm install typescript
 ```
-need to do step 5.
 
 Notes: This program is only configured for gmail accounts. Also, if you have 2 factor authentication enabled on your email then you will have to set up a third party password due to security reasons. I will leave steps for that at the bottom of the README. 
 ```
