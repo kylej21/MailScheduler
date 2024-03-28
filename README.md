@@ -52,7 +52,7 @@ See my video demo above if you need further help
 
 I was instructed to use **nodemailer** for mailing and **node-cron** for scheduling. Aside from this I had freedom of choice.
 
-As for language, I decided to use **TypeScript primarily** for its early error detection. I knew that Nodemailer errors are very vague, so I _wanted to catch as many bugs as possible before runtime_.
+As for language, I decided to use **TypeScript primarily** for its early error detection. I knew that Nodemailer errors are very vague, so I _wanted to catch as many bugs as possible before runtime_. One could argue TS is overkill for such a small project, but this allows scalability in the future and has few drawbacks besides a little bit more code and complexity than vanilla JavaScript.
 
 For this same reason, I used **ESLint** to catch code _stylistic issues_.
 
