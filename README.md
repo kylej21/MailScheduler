@@ -27,7 +27,7 @@ GMAIL_TARGET=''
 npm install typescript
 ```
 
-Notes: This program is only configured for gmail accounts. Also, if you have 2 factor authentication enabled on your email then you will have to set up a third party password due to security reasons. I will leave steps for that at the bottom of the README.
+Notes: This program is only configured for gmail accounts. Also, if you have 2 factor authentication enabled on your email then you will have to set up a third party password due to security reasons. I will leave steps for that at the bottom of the README. If you don't have 2 factor auth, you need to enable less secure apps here - https://myaccount.google.com/lesssecureapps
 
 # Running the Application
 
