@@ -27,7 +27,7 @@ GMAIL_TARGET=''
 npm install typescript
 ```
 
-Notes: This program is only configured for gmail accounts. Also, if you have 2 factor authentication enabled on your email then you will have to set up a third party password due to security reasons. I will leave steps for that at the bottom of the README. If you don't have 2 factor auth, you need to enable less secure apps here - https://myaccount.google.com/lesssecureapps
+Notes: This program is only configured for gmail accounts. Also, if you have 2 factor authentication enabled on your email then you will have to set up a third party password due to security reasons. I will leave steps for that at the bottom of the README. If you don't have 2 factor auth, you need to enable less secure apps here (not recommended for security) - https://myaccount.google.com/lesssecureapps
 
 # Running the Application
 
@@ -65,8 +65,9 @@ The rest of the code was pretty straightforward.
 
 # Third Party Password Steps
 
-1. Click on your gmail profile icon and follow -> Manage Your Account -> Security -> 2 Step Verification -> App Passwords (at the bottom)
-2. In the box "Create new app specific password", type the name of your app. It does not matter what it is. I used NodemailerPass
-3. Copy the generated password and input this in the .env GMAIL_PASS field.
+1. Click on your gmail profile icon and follow -> Manage Your Account -> Security -> 2 Step Verification -> turn on 2 Step
+2. Security -> 2 Step Verification -> app passwords (at the bottom). If app passwords does not appear, try following this link https://myaccount.google.com/apppasswords.
+3. In the box "Create new app specific password", type the name of your app. It does not matter what it is. I used NodemailerPass
+4. Copy the generated password and input this in the .env GMAIL_PASS field.
 
-According to Googles security policy online, if App Passwords does not appear in the 2 Step Verification page it is due to your personal security policies.
+According to Googles security policy online, if App Passwords does not appear in the 2 Step Verification page it is due to your personal security policies with which I cant guide you.
